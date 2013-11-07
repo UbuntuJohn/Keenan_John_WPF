@@ -11,7 +11,7 @@ var yourAge = prompt("What is your age?");
 
 if(yourAge <= 0) {
 yourAge = 0;
-console.log("According to calculations... you aren't born yet");
+console.log("According to calculations... You are a newborn... sure!");
 } else if(yourAge == 1 || yourAge == 2) {
 console.log("You are a toddler... how are you operating a computer?");
 } else if(yourAge >= 3 && yourAge <= 12) {
