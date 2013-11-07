@@ -5,10 +5,12 @@ Assignment: Expressions - Wacky
 Date: November 7th, 2013
 
 */
-
+//Age Title Calculator title
 console.log("Age Title Calculator");
+//Input from the visitor, which asks for name
 var yourAge = prompt("What is your age?");
 
+//many if statements that check different values 
 if(yourAge <= 0) {
 yourAge = 0;
 console.log("According to calculations... You are a newborn... sure!");
