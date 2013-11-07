@@ -16,6 +16,8 @@ console.log("According to calculations... You are a newborn... sure!");
 console.log("You are a toddler... how are you operating a computer?");
 } else if(yourAge >= 3 && yourAge <= 12) {
 console.log("You are a child... are you aware of COPA?");
+} else if(yourAge >= 13 && yourAge <= 17) {
+console.log("You are a teenager! Remember, school is important.");
 } else if(yourAge >=18 && yourAge <= 25) {
 console.log("You are a young adult... You're in the same age group of the developer.");
 } else if() {
