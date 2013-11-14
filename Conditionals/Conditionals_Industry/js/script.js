@@ -6,6 +6,8 @@ Date: November 14th, 2013
 
 */
 
+/* Checks the specs of the website. The idea is to build the site at 960 pixels and nothing more. */
+
 /* ------------ 960 pixel page size ------------- */
 
 //Max width of the web page
