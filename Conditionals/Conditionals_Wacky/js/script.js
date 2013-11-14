@@ -7,6 +7,9 @@ Date: November 14th, 2013
 */
 
 /* ------------ Bad luck cat ------------- */
+
+/* This script checks to see if the visitors cat fits the superstition or not */
+
 //Tells the visitor they now have a cat
 alert("You now have a cat!");
 //Asks the visitors what color there cat is
