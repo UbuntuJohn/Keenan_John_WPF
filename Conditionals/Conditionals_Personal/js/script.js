@@ -6,6 +6,8 @@ Date: November 14th, 2013
 
 */
 
+/* Every day, I set up the pedometer on my mp3 player to check how many steps I've taken. */
+
 
 //Asks the visitors how many foot steps they have taken today
 var currentAmount = prompt("How many foot steps have you walked so far today?");
