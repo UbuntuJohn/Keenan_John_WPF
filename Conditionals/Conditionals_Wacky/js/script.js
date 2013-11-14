@@ -6,7 +6,7 @@ Date: November 14th, 2013
 
 */
 
-/* ------------ Bad luck cat ------------- */
+/* ------------ Bad Luck Cat ------------- */
 
 /* This script checks to see if the visitors cat fits the superstition or not */
 
