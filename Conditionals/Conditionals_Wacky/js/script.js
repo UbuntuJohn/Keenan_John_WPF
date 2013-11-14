@@ -8,7 +8,7 @@ Date: November 14th, 2013
 
 /* ------------ Bad Luck Cat ------------- */
 
-/* This script checks to see if the visitors cat fits the superstition or not */
+/* This script checks to see if the visitors cat fits the superstition or not. Even though most cats bring bad luck any way... They just love getting into trouble. */
 
 //Tells the visitor they now have a cat
 alert("You now have a cat!");
