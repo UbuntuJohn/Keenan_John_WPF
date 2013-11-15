@@ -11,10 +11,10 @@ Date: November 15, 2013
 //prompts the user how many bottles of water they drank today
 var amountDrank = prompt("How many bottles of water did you drink today?");
 
+//creates the normal function to calculate if amount of water has been drank
 function drinkDrunk(bottles) {
 
 	var drinkMinimum = 3;
-	var totalLeft = drinkMinimum - amountDrank;
 	var totalMet;
 
 	if(amountDrank < drinkMinimum) {
