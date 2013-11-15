@@ -37,4 +37,5 @@ function drinkDrunk(bottles) {
 
 //creates the variable to run the function with prompt as the argument
 var drank = drinkDrunk(amountDrank);
+//code to return everything to the browsers console
 console.log("Daily requirement met: " + drank);
