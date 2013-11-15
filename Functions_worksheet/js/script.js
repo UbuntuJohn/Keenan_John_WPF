@@ -8,7 +8,7 @@ Date: November 15, 2013
 
 /* --------- Circumference ---------- */
 
-
+//function called circumference with the parameter of 'radius'
 function circumference(radius) {
 
 	var pi = 3.14;
