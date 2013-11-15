@@ -22,7 +22,7 @@ var photoGalleryPages = function(photosPerPage, totalPhotos) {
 
 //Pages variable calls upon the function that spits out pageAmount
 var pages = photoGalleryPages(totalPhotos,photosPerPage);
-
+//simple ternary that checks to see if pages is less than 0 and turns it to 1 to fix decimal
 (pages < 1) ? pages = 1 : false;
 
 var roundedPages = Math.ceil(pages);
