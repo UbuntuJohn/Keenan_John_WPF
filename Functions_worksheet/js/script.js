@@ -11,6 +11,7 @@ Date: November 15, 2013
 //function called circumference with the parameter of 'radius'
 function circumference(radius) {
 
+	//created a variable for pi
 	var pi = 3.14;
 	var equation = 2 * pi * radius;
 	return equation;
