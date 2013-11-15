@@ -14,6 +14,7 @@ var amountDrank = prompt("How many bottles of water did you drink today?");
 //creates the normal function to calculate if amount of water has been drank
 function drinkDrunk(bottles) {
 
+	//my personal minimum each day (usually the limit, too!)
 	var drinkMinimum = 3;
 	var totalMet;
 
