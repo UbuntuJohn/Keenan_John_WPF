@@ -8,7 +8,7 @@ Date: November 15, 2013
 
 /* --------- Photos per Page ---------- */
 
-var galleryPhotoPageLimit = function() {
+var photoGalleryPages = function() {
 
 
 
