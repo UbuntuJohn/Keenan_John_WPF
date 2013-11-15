@@ -8,9 +8,12 @@ Date: November 15, 2013
 
 /* --------- Photos per Page + Pages ---------- */
 
-var photoGalleryPages = function(photosPerPage) {
+var totalPhotos = prompt("How many photos do you have?");
+var photosPerPage = prompt("How many photos will you have displaying on each page?");
 
+var photoGalleryPages = function(photosPerPage, totalPhotos) {
 
+	
 
 
 }
