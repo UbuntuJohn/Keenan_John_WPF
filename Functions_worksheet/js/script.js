@@ -20,8 +20,8 @@ function circumference(radius) {
 
 }
 
-//creating a variable called 'c' which resembles circumference
-//Also we plug in 10 as 10 is our radius
+/* creating a variable called 'c' which resembles circumference
+Also we plug in 10 as 10 is our radius */
 var c = circumference(10);
 //print our answer to the console.
 console.log("The circumference of the circle is " + c);
@@ -39,8 +39,8 @@ function stung(pounds) {
 	return totalStingsToKill;
 
 }
-//a variable that will hold our answer
-//I inserted 110 because that is my weight... thought it would be nice to know :P
+/*a variable that will hold our answer
+I inserted 110 because that is my weight... thought it would be nice to know :P */
 var beeStings = stung(110);
 //prints our answer to the console
 console.log("It takes " + beeStings + " bee stings to kill this animal.");
