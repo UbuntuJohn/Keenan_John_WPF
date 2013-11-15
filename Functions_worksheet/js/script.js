@@ -21,6 +21,7 @@ function circumference(radius) {
 }
 
 //creating a variable called 'c' which resembles circumference
+//Also we plug in 10 as 10 is our radius
 var c = circumference(10);
 console.log("The circumference of the circle is " + c);
 
