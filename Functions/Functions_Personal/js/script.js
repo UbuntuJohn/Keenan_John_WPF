@@ -25,6 +25,7 @@ function drinkDrunk(bottles) {
 		totalMet = "No";
 		//returns the variable value
 		return totalMet;
+		//else if statement to check if bottle drank amount is greater or equal to minimum/limit
 	} else if(amountDrank >= drinkMinimum) {
 		totalMet = "Yes";
 		return totalMet;
