@@ -41,4 +41,5 @@ function stung(pounds) {
 }
 //a variable that will hold our answer
 var beeStings = stung(110);
+//prints our answer to the console
 console.log("It takes " + beeStings + " bee stings to kill this animal.");
