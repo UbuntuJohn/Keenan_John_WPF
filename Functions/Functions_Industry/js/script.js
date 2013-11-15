@@ -10,6 +10,7 @@ Date: November 15, 2013
 
 //Asks the user how many photos they have
 var totalPhotos = prompt("How many photos do you have?");
+//Ask the user how many photos per page
 var photosPerPage = prompt("How many photos will you have displaying on each page?");
 
 var photoGalleryPages = function(photosPerPage, totalPhotos) {
