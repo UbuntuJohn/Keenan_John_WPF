@@ -35,6 +35,7 @@ function stung(pounds) {
 	var stings = 8.666666667;
 	//this calculates the amount of stings it takes to kill someone or something
 	var totalStingsToKill = pounds * stings;
+	//returns the functions value
 	return totalStingsToKill;
 
 }
