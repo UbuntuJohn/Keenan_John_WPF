@@ -20,7 +20,7 @@ var photoGalleryPages = function(photosPerPage, totalPhotos) {
 	return pagesAmount;
 }
 
-
+//Pages variable calls upon the function that spits out pageAmount
 var pages = photoGalleryPages(totalPhotos,photosPerPage);
 
 (pages < 1) ? pages = 1 : false;
