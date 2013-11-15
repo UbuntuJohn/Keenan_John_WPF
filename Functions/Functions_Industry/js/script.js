@@ -6,7 +6,7 @@ Date: November 15, 2013
 
 */
 
-/* --------- Photos per Page + Pages ---------- */
+/* --------- Photo Pages (Pagination) ---------- */
 
 
 var totalPhotos = prompt("How many photos do you have?");
