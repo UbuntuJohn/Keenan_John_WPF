@@ -6,3 +6,6 @@ Date: November 15, 2013
 
 */
 
+var galleryPhotoPageLimit = function() {
+	
+}
