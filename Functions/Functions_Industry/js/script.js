@@ -24,6 +24,6 @@ var photoGalleryPages = function(photosPerPage, totalPhotos) {
 var pages = photoGalleryPages(totalPhotos,photosPerPage);
 //simple ternary that checks to see if pages is less than 0 and turns it to 1 to fix decimal
 (pages < 1) ? pages = 1 : false;
-
+//rounds up page value if the number of photos or page display is odd (which causes decimal)
 var roundedPages = Math.ceil(pages);
 console.log("There will be a total of " + roundedPages + " page(s) in your photo gallery!");
