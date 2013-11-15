@@ -20,3 +20,5 @@ var c = circumference(10);
 console.log("The circumference of the circle is " + c);
 
 /* --------- Stung! ---------- */
+
+var stings = 8.666666667;
