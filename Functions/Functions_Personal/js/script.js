@@ -8,6 +8,7 @@ Date: November 15, 2013
 
 /* -------- Drinking Water --------- */
 
+//prompts the user how many bottles of water they drank today
 var amountDrank = prompt("How many bottles of water did you drink today?");
 
 function drinkDrunk(bottles) {
@@ -19,7 +20,7 @@ function drinkDrunk(bottles) {
 	if(amountDrank < drinkMinimum) {
 		totalMet = "No";
 		return totalMet;
-	} else if(amountDrank > drinkMinimum) {
+	} else if(amountDrank >= drinkMinimum) {
 		totalMet = "Yes";
 		return totalMet;
 	}
