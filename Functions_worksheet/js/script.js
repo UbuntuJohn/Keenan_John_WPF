@@ -8,6 +8,7 @@ Date: November 15, 2013
 
 /* --------- Circumference ---------- */
 
+
 function circumference(radius) {
 
 	var pi = 3.14;
@@ -21,4 +22,13 @@ console.log("The circumference of the circle is " + c);
 
 /* --------- Stung! ---------- */
 
-var stings = 8.666666667;
+function stung(pounds) {
+
+	var stings = 8.666666667;
+	var totalStingsToKill = pounds * stings;
+	return totalStingsToKill;
+
+}
+
+var kill = stung(110);
+console.log("It takes " + kill + " bee stings to kill this animal.");
