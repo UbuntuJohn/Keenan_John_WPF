@@ -14,7 +14,7 @@ var totalPhotos = prompt("How many photos do you have?");
 var photosPerPage = prompt("How many photos will you have displaying on each page?");
 //function to detect amount of total pages
 var photoGalleryPages = function(photosPerPage, totalPhotos) {
-
+	//the variable that actually does the calculating
 	var pagesAmount = photosPerPage / totalPhotos;
 
 	return pagesAmount;
