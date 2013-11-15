@@ -8,7 +8,7 @@ Date: November 15, 2013
 
 /* --------- Photo Pages (Pagination) ---------- */
 
-
+//Asks the user how many photos they have
 var totalPhotos = prompt("How many photos do you have?");
 var photosPerPage = prompt("How many photos will you have displaying on each page?");
 
