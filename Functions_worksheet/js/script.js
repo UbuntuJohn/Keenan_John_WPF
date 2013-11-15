@@ -40,6 +40,7 @@ function stung(pounds) {
 
 }
 //a variable that will hold our answer
+//I inserted 110 because that is my weight... thought it would be nice to know :P
 var beeStings = stung(110);
 //prints our answer to the console
 console.log("It takes " + beeStings + " bee stings to kill this animal.");
