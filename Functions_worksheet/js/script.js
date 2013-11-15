@@ -13,6 +13,7 @@ function circumference(radius) {
 
 	//created a variable for pi
 	var pi = 3.14;
+	//this is the equation to solve for circumference when radius is given
 	var equation = 2 * pi * radius;
 	return equation;
 
