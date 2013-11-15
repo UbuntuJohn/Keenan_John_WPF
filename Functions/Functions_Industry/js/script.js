@@ -6,7 +6,7 @@ Date: November 15, 2013
 
 */
 
-/* --------- Photos per Page ---------- */
+/* --------- Photos per Page + Pages ---------- */
 
 var photoGalleryPages = function() {
 
