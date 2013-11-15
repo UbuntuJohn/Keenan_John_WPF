@@ -16,6 +16,7 @@ function drinkDrunk(bottles) {
 
 	//my personal minimum each day (usually the limit, too!)
 	var drinkMinimum = 3;
+	//just declaring a variable that we'll use later
 	var totalMet;
 
 	if(amountDrank < drinkMinimum) {
