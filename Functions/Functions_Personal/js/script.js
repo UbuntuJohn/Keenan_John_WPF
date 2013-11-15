@@ -19,7 +19,9 @@ function drinkDrunk(bottles) {
 	//just declaring a variable that we'll use later
 	var totalMet;
 
+	//if statement to check if visitor drank less than 3
 	if(amountDrank < drinkMinimum) {
+		//if not, the met requirement is set to 'No'
 		totalMet = "No";
 		return totalMet;
 	} else if(amountDrank >= drinkMinimum) {
