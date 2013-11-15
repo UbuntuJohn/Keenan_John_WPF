@@ -39,6 +39,6 @@ function stung(pounds) {
 	return totalStingsToKill;
 
 }
-
-var kill = stung(110);
-console.log("It takes " + kill + " bee stings to kill this animal.");
+//a variable that will hold our answer
+var beeStings = stung(110);
+console.log("It takes " + beeStings + " bee stings to kill this animal.");
