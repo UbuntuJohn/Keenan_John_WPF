@@ -28,6 +28,7 @@ console.log("The circumference of the circle is " + c);
 
 /* --------- Stung! ---------- */
 
+//creating a function called stung with the parameter of 'pounds'
 function stung(pounds) {
 
 	var stings = 8.666666667;
