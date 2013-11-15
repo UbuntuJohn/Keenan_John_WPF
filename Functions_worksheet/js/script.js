@@ -31,6 +31,7 @@ console.log("The circumference of the circle is " + c);
 //creating a function called stung with the parameter of 'pounds'
 function stung(pounds) {
 
+	//the amount of stings to kill per pound
 	var stings = 8.666666667;
 	var totalStingsToKill = pounds * stings;
 	return totalStingsToKill;
