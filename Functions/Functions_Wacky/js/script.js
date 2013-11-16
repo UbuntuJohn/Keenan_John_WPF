@@ -8,6 +8,7 @@ Date: November 15, 2013
 
 /* -------- Tootsie Pop Licks Percent (According to Purdue University) --------- */
 
+alert("A random Tootsie Pop falls from the sky and lands in front of you! You want to know how many licks it takes to reach center!");
 //Asks the user how many licks they have done so far
 var tootsieLicks = prompt("How many licks have you performed so far?");
 
