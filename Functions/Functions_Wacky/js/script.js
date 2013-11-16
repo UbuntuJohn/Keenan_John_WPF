@@ -30,6 +30,6 @@ function getLicksPercent(tootsieLicks) {
 
 	} 
 }
-
+//variable that calls upon our function
 var percentage = getLicksPercent(tootsieLicks);
 console.log("You are " + percentage + "% to reaching the middle!");
