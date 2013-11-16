@@ -23,7 +23,7 @@ function getLicksPercent(tootsieLicks) {
 		die();
 		//if the above following isn't true
 	} else {
-
+	//The equation that does calculates the percent
 	var equation = tootsieLicks / purdueStudy * 100;
 	return equation;
 
