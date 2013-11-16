@@ -13,6 +13,7 @@ var tootsieLicks = prompt("How many licks have you performed so far?");
 
 //function that calculates percentage
 function getLicksPercent(tootsieLicks) {
+	//the number Purdue University came up with as an average number
 	var purdueStudy = 364;
 
 	if(tootsieLicks > purdueStudy) {
