@@ -11,26 +11,26 @@ Date: November 15, 2013
 //Asks the user how many licks they have done so far
 var tootsieLicks = prompt("How many licks have you performed so far?");
 
-//function that calculates percentage
+//Function that calculates percentage
 function getLicksPercent(tootsieLicks) {
-	//the number Purdue University came up with as an average number
+	//The number Purdue University came up with as an average number
 	var purdueStudy = 364;
-	//if statement to check if licks is larger than study average
+	//If statement to check if licks is larger than study average
 	if(tootsieLicks > purdueStudy) {
-		//logs to the console that the tester may already be done or test is just a flop.
+		//Logs to the console that the tester may already be done or test is just a flop.
 		console.log("According to Purdue University, you should already be done... Maybe look at one of the other studies?");
 		//Kills the script so the rest doesn't run after this (Note: I know this from PHP)
 		die();
-		//if the above following isn't true
+		//If the above following isn't true
 	} else {
 	//The equation that does calculates the percent
 	var equation = tootsieLicks / purdueStudy * 100;
-	//returns the value of equation
+	//Returns the value of equation
 	return equation;
 
 	} 
 }
-//variable that calls upon our function
+//Variable that calls upon our function
 var percentage = getLicksPercent(tootsieLicks);
-//display the sentence with percentage to the browsers console!
+//Display the sentence with percentage to the browsers console!
 console.log("You are " + percentage + "% to reaching the middle!");
