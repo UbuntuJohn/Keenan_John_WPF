@@ -15,7 +15,7 @@ var tootsieLicks = prompt("How many licks have you performed so far?");
 function getLicksPercent(tootsieLicks) {
 	//the number Purdue University came up with as an average number
 	var purdueStudy = 364;
-
+	//if statement to check if licks is larger than study average
 	if(tootsieLicks > purdueStudy) {
 		console.log("According to Purdue University, you should already be done... Maybe look at one of the other studies?");
 		die();
