@@ -21,6 +21,7 @@ function getLicksPercent(tootsieLicks) {
 		console.log("According to Purdue University, you should already be done... Maybe look at one of the other studies?");
 		//Kills the script so the rest doesn't run after this (Note: I know this from PHP)
 		die();
+		//if the above following isn't true
 	} else {
 
 	var equation = tootsieLicks / purdueStudy * 100;
