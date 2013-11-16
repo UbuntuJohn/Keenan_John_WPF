@@ -32,4 +32,5 @@ function getLicksPercent(tootsieLicks) {
 }
 //variable that calls upon our function
 var percentage = getLicksPercent(tootsieLicks);
+//display the sentence with percentage to the browsers console!
 console.log("You are " + percentage + "% to reaching the middle!");
