@@ -17,6 +17,7 @@ function getLicksPercent(tootsieLicks) {
 	var purdueStudy = 364;
 	//if statement to check if licks is larger than study average
 	if(tootsieLicks > purdueStudy) {
+		//logs to the console that the tester may already be done or test is just a flop.
 		console.log("According to Purdue University, you should already be done... Maybe look at one of the other studies?");
 		die();
 	} else {
