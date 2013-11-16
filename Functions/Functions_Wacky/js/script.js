@@ -11,6 +11,7 @@ Date: November 15, 2013
 //Asks the user how many licks they have done so far
 var tootsieLicks = prompt("How many licks have you performed so far?");
 
+//function that calculates percentage
 function getLicksPercent(tootsieLicks) {
 	var purdueStudy = 364;
 
