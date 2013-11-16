@@ -19,6 +19,7 @@ function getLicksPercent(tootsieLicks) {
 	if(tootsieLicks > purdueStudy) {
 		//logs to the console that the tester may already be done or test is just a flop.
 		console.log("According to Purdue University, you should already be done... Maybe look at one of the other studies?");
+		//Kills the script so the rest doesn't run after this (Note: I know this from PHP)
 		die();
 	} else {
 
